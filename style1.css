@@ -565,7 +565,7 @@ main {
   text-align: justify;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1400px) {
   .faq-section {
     padding: 0 20px;
   }
@@ -694,7 +694,7 @@ main {
   max-height: 100vh;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1400px) {
   .contact-us {
     padding: 0 20px;
   }
@@ -706,7 +706,7 @@ main {
   display: flex;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1400px) {
   .contact-us .contact-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -721,7 +721,7 @@ main {
           flex: 1.5;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1400px) {
   .contact-us .contact-container .left {
     -webkit-box-flex: unset;
         -ms-flex: unset;
@@ -743,7 +743,7 @@ main {
   margin-left: 20px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1400px) {
   .contact-us .contact-container .right {
     margin: 0;
     margin-top: 20px;
@@ -761,7 +761,7 @@ main {
   display: flex;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1400px) {
   .contact-us-section .contact-us-banner {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -816,7 +816,7 @@ main {
      object-fit: cover;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1400px) {
   .contact-us-section .contact-us-banner .right iframe {
     margin-top: 20px;
     height: 500px;
@@ -916,7 +916,7 @@ form input[type=submit] {
           align-items: flex-start;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1400px) {
   .form-style-2 .form-group-container .form-group {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -932,7 +932,7 @@ form input[type=submit] {
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1400px) {
   .form-style-2 .form-group-container .form-group label {
     font-size: 1rem;
   }
@@ -967,7 +967,7 @@ form input[type=submit] {
   color: #ff2b2b;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1400px) {
   .form-style-2 .form-group-container .form-group input {
     font-size: 1.3rem;
   }
@@ -1563,7 +1563,7 @@ ul a {
 }
 
 ul a:hover {
-  color: rgb(254, 252, 252);
+  color: wheat;
 }
 
 .logo-container {
