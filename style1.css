@@ -15,7 +15,7 @@ main {
   min-height: 80vh;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1400px) {
   .banner-section {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -40,7 +40,7 @@ main {
           justify-content: center;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1400px) {
   .banner-section .left {
     padding: 0 0px;
   }
@@ -68,7 +68,7 @@ main {
           flex: 1;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1400px) {
   .banner-section .right {
     display: none;
   }
@@ -80,7 +80,7 @@ main {
   border-top: 1px solid #E0E0E0;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1400px) {
   .client-section {
     padding-top: 5vw;
   }
@@ -90,7 +90,7 @@ main {
   height: 2.5vw;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1400px) {
   .client-section .client-slider .client .client-img {
     height: 12.5vw;
   }
@@ -103,13 +103,13 @@ main {
      object-fit: contain;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1400px) {
   .client-section .client-slider .client .client-img img {
     height: 12.5vw;
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1400px) {
   .our-services-section {
     padding: 0  20px;
   }
@@ -126,7 +126,7 @@ main {
       justify-content: space-around;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1400px) {
   .our-services-section .services-container {
     margin-top: -6.25vw;
   }
@@ -161,7 +161,7 @@ main {
   color: white;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1400px) {
   .our-services-section .services-container .service {
     max-width: unset;
     min-width: unset;
@@ -205,7 +205,7 @@ main {
   padding: 2.08333vw 1.04167vw;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1400px) {
   .our-services-section .services-container .service .service-content {
     padding: 40px 0;
   }
@@ -229,7 +229,7 @@ main {
   margin-right: 0.52083vw;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1400px) {
   .our-services-section .services-container .service .icon-list .icon-container {
     height: 10vw;
     width: 10vw;
@@ -245,7 +245,7 @@ main {
 }
 
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1400px) {
   .our-work-section {
     padding: 0 20px;
   }
@@ -273,7 +273,7 @@ main {
   margin-top: 2.60417vw;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1400px) {
   .our-work-section .work-grid {
     margin-top: 6.25vw;
     -ms-grid-columns: 1fr;
@@ -303,7 +303,7 @@ main {
           transform: translateZ(40px);
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1400px) {
   .our-work-section .work-grid .work .img-container {
     height: 37.5vw;
   }
@@ -325,7 +325,7 @@ main {
           transform: translateZ(20px);
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1400px) {
   .our-work-section .work-grid .work .problem-container {
     margin-top: 10px;
   }
@@ -405,7 +405,7 @@ main {
   margin-left: 260px;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1400px) {
   .reviews-section .title h2 {
     margin: 0;
   }
@@ -417,7 +417,7 @@ main {
   display: flex;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1400px) {
   .reviews-section .review-slider .review {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -451,7 +451,7 @@ main {
           align-items: center;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1400px) {
   .reviews-section .review-slider .review .left {
     width: 100%;
   }
@@ -502,7 +502,7 @@ main {
   padding: 20px 80px;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1400px) {
   .reviews-section .review-slider .review .right {
     padding-left: 0px;
     padding-right: 0;
@@ -537,7 +537,7 @@ main {
   left: 0;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1400px) {
   .reviews-section .review-slider .review .right .quote {
     top: -50px;
     display: none;
@@ -838,7 +838,7 @@ section {
   margin-top: 7.8125vw;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1400px) {
   section {
     margin-top: 18.75vw !important;
   }
@@ -1527,7 +1527,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1400px) {
   html,
   body {
     cursor: initial;
@@ -1571,7 +1571,7 @@ ul a:hover {
   width: 5.20833vw;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1400px) {
   .logo-container {
     height: 16.25vw;
     width: 16.25vw;
@@ -2172,7 +2172,7 @@ header .mobile-nav .mobile-nav-container-active {
   position: unset;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1400px) {
   .desktop-nav {
     display: none;
   }
@@ -2203,7 +2203,7 @@ header .mobile-nav .mobile-nav-container-active {
   transition: all 0.2s ease;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1400px) {
   .transition-group {
     height: 200px;
   }
@@ -2226,7 +2226,7 @@ header .mobile-nav .mobile-nav-container-active {
   right: 0%;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1400px) {
   .social-media-list ul {
     display: none;
   }
