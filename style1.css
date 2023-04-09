@@ -1558,6 +1558,13 @@ ul {
   list-style: none;
 }
 
+@media screen and (max-width: 1400px) {
+  ul a {
+    color: rgb(233, 231, 231);
+    font-size: xx-large;
+  }
+}
+
 ul a {
   color: rgb(233, 231, 231);
 }

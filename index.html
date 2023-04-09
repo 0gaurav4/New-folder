@@ -146,7 +146,7 @@
 
 <!-- Canvas BG -->
 <canvas id="canvas"></canvas>
-<script src="/static/js/main.js" defer></script>
+<script src="main.js" defer></script>
 
 
 <!-- Tilt JS -->
@@ -157,22 +157,11 @@
     
 <script>
     $(document).ready(function () {
-        
-        // // Banner
-        // var mousePointer = document.getElementsByClassName('mouse-moveable')
-
-        // document.addEventListener('mousemove', function (e) {
-        //     var x = e.pageY / window.innerHeight;
-        //     x = x * -20;
-
-        //     mousePointer[0].style.transform = 'translateY(' + x + '%)'
-        // })
 
         // Service Tilt
         $('.js-tilt').tilt({
             maxTilt: 20,
             perspective: 1400,
-            // easing: "cubic-bezier(.03,.98,.52,.99)",
             speed: 0,
             glare: true,
             maxGlare: 0.2,
@@ -213,9 +202,6 @@
         const accItems = document.querySelectorAll(".accordion__item");
         accItems.forEach((acc) => acc.addEventListener("click", toggleAcc));
         function toggleAcc() {
-            // remove active class from all items exept the current item (this)
-            // accItems.forEach((item) => item != this ? item.classList.remove("accordion__item--active") : null
-
             // toggle active class on current item
             if (this.classList != "accordion__item--active") {
                 this.classList.toggle("accordion__item--active");
